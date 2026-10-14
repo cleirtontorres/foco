@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FOCO</title>
+    <link rel="stylesheet" href="estilos/style.css">
     <script src="https://kit.fontawesome.com/c34aaae9a0.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <img src="" alt="" id="logo">
@@ -37,19 +40,321 @@
                 5 a 11 de outro de 2026
             </p>
             <article class="card-resultados">
-                <span class="number">
-                    4/7
-                </span>
-                <p>concluídas</p>
+                <div>
+                    <span class="number">
+                        4/7
+                    </span>
+                    <p>concluídas</p>
+                </div>
+                <div class="barra">
+                    <div class="progresso" style="width: 57%;"></div>
+                </div>
                 <!-- colocar uma barra de progressão aqui! -->
             </article>
 
+            <article class="card-resultados">
+                <div>
+                    <span class="number">
+                        6h30
+                    </span>
+                </div>
+                <div>
+                    <p>de estudo na semana</p>
+                </div>
+            </article>
 
+            <article class="titulo-tarefa">
+                <div class="suas-tarefas">
+                    <p>Suas tarefas</p>
+                </div>
+
+                <div class="ver-semana">
+                    <p>Ver semana</p>
+                </div>
+            </article>
+
+            <article class="check">
+                <div class="tarefa">
+                    <input type="checkbox" name="revisar-funcao" id="revisar-funcao">
+                    <label for="revisar-funcao" class="text-tarefa">Revisar funções <span>Matemática - Seg, 05</span>
+                    </label>
+                </div>
+                <div class="tempo-tarefa">1h</div>
+            </article>
+
+            <article class="check">
+                <div class="tarefa">
+                    <input type="checkbox" name="ler" id="ler">
+                    <label for="ler" class="text-tarefa">Ler sobre genética<span>Biologia - Ter, 06</span></label>
+                </div>
+                <div class="tempo-tarefa">1h</div>
+            </article>
+
+            <article class="check">
+                <div class="tarefa">
+                    <input type="checkbox" name="revisar-brasil-colonia" id="revisar-brasil-colonia">
+                    <label for="revisar-brasil-colonia" class="text-tarefa">Revisar Brasil Colônia <span>História - Sex,
+                            09</span></label>
+                </div>
+                <div class="tempo-tarefa">1h</div>
+            </article>
+            <hr>
+
+            <article class="proxima-tarefa">
+                <div class="dia">
+                    <p>SÁB</p>
+                    <p>10</p>
+                </div>
+
+                <div class="text-tarefa">
+                    <p>Resolver estequiometria</p>
+                    <p class="texto-destaque">Próximo estudo - 09:00-10:00</p>
+                </div>
+            </article>
+
+            <p>Menos abas abertas. Mais clareza para estudar.</p>
+
+        </section>
+
+        <section id="vantagens">
+            <div>
+                <span class="sub-area">FEITO PARA SUA ROTINA</span>
+                <h2>Tudo o que voçê precisa para manter o foco.</h2>
+            </div>
+
+            <div class="card-vantagens">
+                <article>
+                    <div class="icon"></div>
+                    <p>Planejamento semanal</p>
+                    <p>Organize horários e disciplinas.</p>
+                </article>
+            </div>
+
+            <div class="card-vantagens">
+                <article>
+                    <div class="icon"></div>
+                    <p>Lista de tarefas</p>
+                    <p>Acompanhe atividades pendentes e concluídas.</p>
+                </article>
+            </div>
+            
+            <div class="card-vantagens">
+                <article>
+                    <div class="icon"></div>
+                    <p>Metas de estudo</p>
+                    <p>Defina objetivos e mantenha a consistência.</p>
+                </article>
+            </div>
+
+            <div class="card-vantagens">
+                <article>
+                    <div class="icon"></div>
+                    <p>Acompanhamento</p>
+                    <p>Visualize seu progresso de forma simples.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="acoes">
+            <div>
+                <span class="sub-area">SIMPLES, DO INÍCIO AO FIM</span>
+                <h2>Uma rotina mais organizada em três passos.</h2>
+            </div>
+
+            <article class="card-acoes">
+                <div>
+                    <span class="number">01</span>
+                    <div class="icon"></div>
+                </div>
+                    <p>Planeje sua semana.</p>
+                    <p>Separe um tempo para cada disciplina e defina suas prioridades.</p>
+            </article>
+
+            <article class="card-acoes">
+                <div>
+                    <span class="number">02</span>
+                    <div class="icon"></div>
+                </div>
+                    <p>Execute suas tarefas.</p>
+                    <p>Siga seu plano, uma atividade de cada vez, no seu ritmo.</p>
+            </article>
+
+            <article class="card-acoes">
+                <div>
+                    <span class="number">03</span>
+                    <div class="icon"></div>
+                </div>
+                    <p>Acompanhe sua evolução.</p>
+                    <p>Veja o que já conquistou e ajuste os próximos passos.</p>
+            </article>
+        </section>
+
+        <section id="semana">
+            <div>
+                <span class="sub-area">SEU PLANO, NA PRÁTICA</span>
+                <h2>Sua semana, organizada em um só lugar.</h2>
+                <p>Visualize suas atividades e saiba o que precisa fazer a cada dia.</p>
+            </div>
+
+            <div id="minha-semana">
+                <h3>Minha semana</h3>
+                <p>5-11 de outubro de 2026</p>
+            </div>
+
+            <article class="card-resultados">
+                <div>
+                    <span class="number">
+                        4 de 7 tarefas concluídas
+                    </span>
+                    <span>57%</span>
+                </div>
+                <div class="barra">
+                    <div class="progresso" style="width: 57%;"></div>
+                </div>
+            </article>
+
+            <div id="cards-semana">
+
+                <article class="card-dia">
+                    <div class="topo-card">
+                        <span>SEG</span>
+                        <span class="number">05</span>
+                    </div>
+
+                    <div class="materia">Matemática</div>
+                    <p class="card">Revisar funções</p>
+                    <p>18:00-19:00</p>
+                    <div class="icon-card">Concluída</div>
+                </article>
+
+                <article class="card-dia">
+                    <div class="topo-card">
+                        <span>TER</span>
+                        <span class="number">06</span>
+                    </div>
+
+                    <div class="materia">Biologia</div>
+                    <p class="card">Ler sobre genética</p>
+                    <p>18:00-19:00</p>
+                    <div class="icon-card">Concluída</div>
+                </article>
+
+                <article class="card-dia">
+                    <div class="topo-card">
+                        <span>QUA</span>
+                        <span class="number">07</span>
+                    </div>
+
+                    <div class="materia">Português</div>
+                    <p class="card">Praticar redação</p>
+                    <p>18:00-19:00</p>
+                    <div class="icon-card">Concluída</div>
+                </article>
+
+                <article class="card-dia">
+                    <div class="topo-card">
+                        <span>QUI</span>
+                        <span class="number">08</span>
+                    </div>
+
+                    <div class="materia">Física</div>
+                    <p class="card">Estudar cinemática</p>
+                    <p>18:00-19:00</p>
+                    <div class="icon-card">Concluída</div>
+                </article>
+
+                <article class="card-dia">
+                    <div class="topo-card">
+                        <span>SEX</span>
+                        <span class="number">09</span>
+                    </div>
+
+                    <div class="materia">História</div>
+                    <p class="card">Revisar Brasil Colônia</p>
+                    <p>17:00-18:00</p>
+                    <div class="icon-card">Pendente</div>
+                </article>
+
+                <article class="card-dia">
+                    <div class="topo-card">
+                        <span>SÁB</span>
+                        <span class="number">10</span>
+                    </div>
+
+                    <div class="materia">Química</div>
+                    <p class="card">Resolver estequiometria</p>
+                    <p>09:00-10:30</p>
+                    <div class="icon-card">Pendente</div>
+                </article>
+
+                <article class="card-dia">
+                    <div class="topo-card">
+                        <span>DOM</span>
+                        <span class="number">05</span>
+                    </div>
+
+                    <div class="materia">Revisão</div>
+                    <p class="card">Revisar anotações</p>
+                    <p>10:00-10:30</p>
+                    <div class="icon-card">Pendente</div>
+                </article>
+            </div>
+
+            <p>Uma tarefa por dia. Pequenos passos também contam.</p>
+        </section>
+
+        <section id="area-planos">
+             <div>
+                <span class="sub-area">UM PLANO PARA CADA MOMENTO</span>
+                <h2>Comece a organizar sua rotina hoje.</h2>
+                <p>Visualize suas atividades e saiba o que precisa fazer a cada dia.</p>
+            </div>
+
+            <div id="planos">
+                <article>
+                    <div class="topo-card">
+                        <h3>Gratuito</h3>
+                        <a href="#">Para começar</a>
+                    </div>
+                    <p>O essencial para dar o primeiro passo e criar uma rotina de estudos.</p>
+                    <p id="preco-plano">R$ 0</p>
+                    <p>gratuito, sem prazo</p>
+
+                    <ul>
+                        <li>Planejamento semanal</li>
+                        <li>Lista de tarefas</li>
+                        <li>Metas básicas</li>
+                    </ul>
+
+                    <a href="#" class="button">Começar grátis</a>
+                </article>
+            </div>
+
+            <div id="planos">
+                <article>
+                    <div class="topo-card">
+                        <h3>Pro</h3>
+                    </div>
+                    <p>Recursos avançados de organização e acompanhamento.</p>
+                    <p id="preco-plano">R$ 14,90</p>
+                    <p>por mês</p>
+
+                    <ul>
+                        <li>Tudo do plano gratuito</li>
+                        <li>Organização avançada</li>
+                        <li>Acompanhamento detalhado</li>
+                    </ul>
+
+                    <a href="#" class="button">Conhecer o Pro</a>
+                </article>
+            </div>
+
+            <p>Comece pelo gratuito e evolua quando fizer sentido para você.</p>
         </section>
     </main>
 
     <footer>
-
     </footer>
 </body>
+
 </html>
