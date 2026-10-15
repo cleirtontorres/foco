@@ -1,15 +1,64 @@
 @charset "UFT-8";
 
+:root{
+    --fundo-principal : #ffffff;
+    --fundo-secundario: #f1f5f9;
+    --cor-principal: #101828;
+    --destaque: #38bdf8;
+    --acoes-principais: #2563eb;
+    --branco : #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: var(--cor-principal);
+    height: 8rem;
+    max-height: 20vh;
+}
+
+header #topo-header{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #logo{
+    width: 100px;
+}
+
+header .comecar-agora{
+    background-color: var(--acoes-principais);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header a{
+    color: var(--branco);
+    text-decoration: none;
+}
+
 
 .barra{
     width: 100%;
     height: 8px;
-    background-color: rgb(198, 202, 202);
+    background-color: var(--fundo-secundario);
     border-radius: 4px;
 }
 
 .progresso{
     height: 100%;
-    background-color: #0080ff;
+    background-color: var(--acoes-principais);
     border-radius: 4px;
 }
