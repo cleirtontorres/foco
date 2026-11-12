@@ -8,7 +8,7 @@
     --acoes-principais: #2563eb;
     --branco : #ffffff;
     --cinza1 : #dedede;
-    --cinza2 : #555555;
+    --cinza2 : #7c7c7c;
     --fund-azul : #38bff821;
 }
 
@@ -213,6 +213,7 @@ h2{
 
 .tempo-tarefa{
     color: var(--cinza2);
+    font-weight: bold;
 }
 
 .proxima-tarefa{
@@ -307,4 +308,31 @@ h2{
 .number{
     font-size: 2rem;
     font-weight: 700;
+}
+
+#vantagens .texto-destaque{
+    margin: 1rem 0 1rem 0;
+}
+
+#semana{
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px var(--cinza1);
+    background-color: var(--fundo-principal);
+    padding: 1rem;
+}
+
+#semana .paragrafo-detalhe{
+     margin: 0 0 1rem 0;
+}
+
+#minha-semana{
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-resultados2{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0 0.5rem 0;
+    font-size: 0.9rem;
 }
