@@ -177,7 +177,7 @@
         <div class="main1">
             <section id="acoes">
                 <div>
-                    <h3 class="sub-area">SIMPLES, DO INÍCIO AO FIM</h3>
+                    <h3 class="sub-area2">SIMPLES, DO INÍCIO AO FIM</h3>
                     <h2>Uma rotina mais organizada em três passos.</h2>
                 </div>
 
@@ -245,8 +245,11 @@
                             </div>
                             <div class="materia">Matemática</div>
                             <p class="card">Revisar funções</p>
-                            <p>18:00-19:00</p>
-                            <div class="icon-card">Concluída</div>
+                            <p class="hora">18:00-19:00</p>
+                            <div class="icon-card">
+                                <input type="checkbox" name="seg" id="seg">
+                                <label for="seg">Concluída</label>
+                            </div>
                         </article>
 
                         <article class="card-dia">
@@ -256,8 +259,11 @@
                             </div>
                             <div class="materia">Biologia</div>
                             <p class="card">Ler sobre genética</p>
-                            <p>18:00-19:00</p>
-                            <div class="icon-card">Concluída</div>
+                            <p class="hora">18:00-19:00</p>
+                            <div class="icon-card">
+                                <input type="checkbox" name="ter" id="ter">
+                                <label for="ter">Concluída</label>
+                            </div>
                         </article>
 
                         <article class="card-dia">
@@ -267,8 +273,11 @@
                             </div>
                             <div class="materia">Português</div>
                             <p class="card">Praticar redação</p>
-                            <p>18:00-19:00</p>
-                            <div class="icon-card">Concluída</div>
+                            <p class="hora">18:00-19:00</p>
+                            <div class="icon-card">
+                                <input type="checkbox" name="qua" id="qua">
+                                <label for="qua">Concluída</label>
+                            </div>
                         </article>
 
                         <article class="card-dia">
@@ -278,8 +287,11 @@
                             </div>
                             <div class="materia">Física</div>
                             <p class="card">Estudar cinemática</p>
-                            <p>18:00-19:00</p>
-                            <div class="icon-card">Concluída</div>
+                            <p class="hora">18:00-19:00</p>
+                            <div class="icon-card">
+                                <input type="checkbox" name="qui" id="qui">
+                                <label for="qui">Concluída</label>
+                            </div>
                         </article>
 
                         <article class="card-dia">
@@ -289,8 +301,11 @@
                             </div>
                             <div class="materia">História</div>
                             <p class="card">Revisar Brasil Colônia</p>
-                            <p>17:00-18:00</p>
-                            <div class="icon-card">Pendente</div>
+                            <p class="hora">17:00-18:00</p>
+                            <div class="icon-card">
+                                <input type="checkbox" name="sex" id="sex">
+                                <label for="sex">Pendente</label>
+                            </div>
                         </article>
 
                         <article class="card-dia">
@@ -300,74 +315,83 @@
                             </div>
                             <div class="materia">Química</div>
                             <p class="card">Resolver estequiometria</p>
-                            <p>09:00-10:30</p>
-                            <div class="icon-card">Pendente</div>
+                            <p class="hora">09:00-10:30</p>
+                            <div class="icon-card">
+                                <input type="checkbox" name="sab" id="sab">
+                                <label for="sab">Pendente</label>
+                            </div>
                         </article>
 
                         <article class="card-dia">
                             <div class="topo-card">
-                                <span>DOM</span>
+                                <span class="dia-semana">DOM</span>
                                 <span class="number">05</span>
                             </div>
                             <div class="materia">Revisão</div>
                             <p class="card">Revisar anotações</p>
-                            <p>10:00-10:30</p>
-                            <div class="icon-card">Pendente</div>
+                            <p class="hora">10:00-10:30</p>
+                            <div class="icon-card">
+                                <input type="checkbox" name="dom" id="dom">
+                                <label for="dom">Pendente</label>
+                            </div>
                         </article>
                     </div>
-                    <p>Uma tarefa por dia. Pequenos passos também contam.</p>
+                    <p class="paragrafo-final-secao"><i class="fa-solid fa-circle-info"> </i> Pequenos passos também
+                        contam.</p>
                 </section>
             </section>
         </div>
+        <div class="main1">
 
-        <section id="area-planos">
-            <div>
-                <span class="sub-area">UM PLANO PARA CADA MOMENTO</span>
-                <h2>Comece a organizar sua rotina hoje.</h2>
-                <p>Visualize suas atividades e saiba o que precisa fazer a cada dia.</p>
-            </div>
+            <section id="area-planos">
+                <div>
+                    <h3 class="sub-area2">UM PLANO PARA CADA MOMENTO</h3>
+                    <h2>Comece a organizar sua rotina hoje.</h2>
+                    <p>Visualize suas atividades e saiba o que precisa fazer a cada dia.</p>
+                </div>
 
-            <div class="planos">
-                <article>
-                    <div class="topo-card">
-                        <h3>Gratuito</h3>
-                        <a href="#">Para começar</a>
-                    </div>
-                    <p>O essencial para dar o primeiro passo e criar uma rotina de estudos.</p>
-                    <p id="preco-plano">R$ 0</p>
-                    <p>gratuito, sem prazo</p>
+                <div class="planos">
+                    <article>
+                        <div class="topo-card">
+                            <h3>Gratuito</h3>
+                            <a href="#">Para começar</a>
+                        </div>
+                        <p>O essencial para dar o primeiro passo e criar uma rotina de estudos.</p>
+                        <p id="preco-plano">R$ 0</p>
+                        <p>gratuito, sem prazo</p>
 
-                    <ul>
-                        <li>Planejamento semanal</li>
-                        <li>Lista de tarefas</li>
-                        <li>Metas básicas</li>
-                    </ul>
+                        <ul>
+                            <li>Planejamento semanal</li>
+                            <li>Lista de tarefas</li>
+                            <li>Metas básicas</li>
+                        </ul>
 
-                    <a href="#" class="button">Começar grátis</a>
-                </article>
-            </div>
+                        <a href="#" class="button">Começar grátis</a>
+                    </article>
+                </div>
 
-            <div class="planos">
-                <article>
-                    <div class="topo-card">
-                        <h3>Pro</h3>
-                    </div>
-                    <p>Recursos avançados de organização e acompanhamento.</p>
-                    <p id="preco-plano">R$ 14,90</p>
-                    <p>por mês</p>
+                <div class="planos">
+                    <article>
+                        <div class="topo-card">
+                            <h3>Pro</h3>
+                        </div>
+                        <p>Recursos avançados de organização e acompanhamento.</p>
+                        <p id="preco-plano">R$ 14,90</p>
+                        <p>por mês</p>
 
-                    <ul>
-                        <li>Tudo do plano gratuito</li>
-                        <li>Organização avançada</li>
-                        <li>Acompanhamento detalhado</li>
-                    </ul>
+                        <ul>
+                            <li>Tudo do plano gratuito</li>
+                            <li>Organização avançada</li>
+                            <li>Acompanhamento detalhado</li>
+                        </ul>
 
-                    <a href="#" class="button">Conhecer o Pro</a>
-                </article>
-            </div>
+                        <a href="#" class="button">Conhecer o Pro</a>
+                    </article>
+                </div>
 
-            <p>Comece pelo gratuito e evolua quando fizer sentido para você.</p>
-        </section>
+                <p>Comece pelo gratuito e evolua quando fizer sentido para você.</p>
+            </section>
+        </div>
     </main>
 
     <footer>
