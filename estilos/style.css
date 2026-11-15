@@ -336,3 +336,36 @@ h2{
     margin: 1.5rem 0 0.5rem 0;
     font-size: 0.9rem;
 }
+
+#cards-semana{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.card-dia{
+    padding: 0.5rem;
+    border: 1px solid var(--cinza1);
+    border-radius: 10px;
+}
+
+.topo-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1rem;
+}
+
+.materia{
+    width: fit-content;
+    padding: 0.2rem;
+    color: var(--cinza2);
+    background-color: var(--fund-azul);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.card{
+    
+}
