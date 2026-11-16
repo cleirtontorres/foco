@@ -206,6 +206,7 @@ h2{
 .check{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1rem;
 }
 
 .tarefa{
@@ -274,7 +275,7 @@ h2{
     flex-direction: column;
     justify-content: space-between;
     border-radius: 10px;
-    height: 10rem;
+    height: fit-content;
     padding: 1.5rem;
     margin-top: 10px;
     background-color: var(--fundo-principal);
@@ -546,4 +547,128 @@ footer h2{
     .button2{
         border: none;
     }
+
+    #card-vantagens{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    #card-acoes{
+       display: flex;
+       gap: 2rem;
+    }
+
+    #topo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.5rem;
+    }
+
+    #cards-semana{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .centralizar{
+        text-align: center;
+    }
+
+    #dados-planos{
+        display: flex;
+        gap: 1rem;
+    }
+
+    #detalhesfooter{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1025px){
+
+    body{
+        font-size: 1.3rem;
+    }
+
+    #mainp1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .main1 h1{
+        font-size: 4rem;
+    }
+
+    .botoes-hero{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .botoes-hero .button, .button2{
+        height: fit-content;
+    }
+
+    .button2{
+        border: none;
+    }
+
+    .centralizar{
+        text-align: center;
+    }
+
+    #card-vantagens{
+        display: flex;
+        gap: 1rem;
+    }
+
+    #card-acoes{
+        display: flex;
+        gap: 2rem;
+        justify-content: space-between;
+    }
+
+    .card-acoes{
+        width: 100%;
+    }
+
+    #cards-semana{
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    #dados-planos{
+        display: flex;
+        gap: 1rem;
+    }
+
+    footer{
+        padding: 0 10%;
+    }
+
+    footer .button{
+        width: fit-content;
+        margin: auto;
+    }
+
+    #ajuste-menu{
+        display: grid;
+        grid-template-columns: 30% 1fr 2fr;
+        border: none;
+        
+    }
+
+    #menu-footer{
+        border: none;
+        grid-column: 3;
+    }
+
+    #detalhesfooter{
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
