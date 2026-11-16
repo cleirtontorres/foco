@@ -54,6 +54,8 @@ header #topo-header{
 }
 
 header .comecar-agora{
+    color: var(--branco);
+    text-decoration: none;
     background-color: var(--acoes-principais);
     padding: 15px;
     border-radius: 8px;
@@ -64,9 +66,20 @@ header nav{
     justify-content: space-evenly;
 }
 
-header a{
-    color: var(--branco);
+header nav a{
+    color: var(--cinza1);
     text-decoration: none;
+    background-size: 0% 2px;
+    transition: background-size 0.1s ease 0.1s;
+}
+
+header nav a:hover{
+    color: var(--branco);
+    background-image: linear-gradient(to right, var(--branco), var(--acoes-principais));
+    background-position: bottom;
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    transform: translateY(-3px);
 }
 
 .paragrafo-detalhe{
