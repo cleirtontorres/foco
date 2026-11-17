@@ -38,9 +38,8 @@
 
 header{
     background-color: var(--cor-principal);
-    height: 8rem;
+    height: clamp( 6rem, 12vw, 10rem);
     margin-bottom: 0.5rem;
-    max-height: 10rem ;
 }
 
 header #topo-header{
